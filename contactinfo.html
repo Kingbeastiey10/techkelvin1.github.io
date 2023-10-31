@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <!-- Including Bulma CSS for styling -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
+</head>
+<body>
+
+    <!-- Go Back Button -->
+    <div class="container" style="margin-top: 20px;">
+        <button class="button is-info" onclick="goBack()">Go Back</button>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+                X Shop
+            </a>
+        </div>
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="kelvinai1.html">
+                    Home
+                </a>
+                <a class="navbar-item" href="products.html">
+                    Products
+                </a>
+                <a class="navbar-item" href="contactinfo.html">
+                    Contact
+                </a>
+                <a class="navbar-item" href="cart.html">
+                    <span class="icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </span>
+                    Cart
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="section">
+        <div class="container">
+            <h1 class="title">Services Offered by X Shop</h1>
+            <ul>
+                <li><strong>For more information, contact this number:</strong> xxxxxxxxxx</li>
+                <li><strong>Email us at this email address:</strong> xshop@gmail.com</li>
+                <li><strong>For private products, contact this number:</strong> xxxxxxxxxx</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>&copy; 2023 X Shop. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

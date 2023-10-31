@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-Commerce Website</title>
+
+    <!-- Bootstrap CSS (UI Design) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Font Awesome CSS (Icons for better UX) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Optional: SEO Meta Tags -->
+    <meta name="description" content="This is an e-commerce website.">
+    <meta name="keywords" content="e-commerce, online shopping, shop online">
+</head>
+
+<body>
+
+    <!-- Navigation Bar (Essential for UX) -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">X Shop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="kelvinai1.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="contactinfo.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <!-- Sidebar for Filters (UX + Feature) -->
+            <div class="col-md-3">
+                <h3>Filters</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">Category 1</li>
+                    <li class="list-group-item">Category 2</li>
+                    <li class="list-group-item">Category 3</li>
+                </ul>
+            </div>
+
+            <!-- Product Listings (Core MVP Feature) -->
+            <div class="col-md-9">
+                <h1>Featured Products</h1>
+                <div class="row">
+                    <!-- Product Cards -->
+                    <!-- You can use back-end logic here to iterate over products in your database -->
+                    <!-- Product 1 -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://cdn.headphonecheck.com/wp-content/uploads/2018/12/tps_1524_448335_November60561-448335-1920x1080.jpg" class="card-img-top" alt="Product 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Product 1</h5>
+                                <p class="card-text">$10.00</p>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ... -->
+                    <!-- Add more products as needed -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer (Legality + Contact + Copyright) -->
+    <footer class="footer bg-light mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-center">&copy; 2023 My E-Commerce Website. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript (UX + Interactivity) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
